@@ -29,6 +29,8 @@ def plt_style(c='k'):
     # remove background colour, set figure size
     rc('figure', figsize=(16, 8), max_open_warning=False)
     rc('axes', facecolor='none')
+    mpl.rcParams.update({'font.size': 22})
+    
 
 
 def plt_interactive(c='k'):
